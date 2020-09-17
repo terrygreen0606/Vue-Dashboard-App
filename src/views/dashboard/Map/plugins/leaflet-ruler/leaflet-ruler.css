@@ -1,0 +1,23 @@
+.result-tooltip{
+  background-color: rgba(49, 53, 65);
+  border-color: rgba(49, 53, 65);
+  font-size: smaller;
+  color: white;
+  z-index: 1000;
+}
+
+.result-tooltip .leaflet-popup-tip{
+  background-color: red;
+}
+
+.moving-tooltip{
+  background-color: rgba(49, 53, 65, 0.8);
+  border-color: rgba(49, 53, 65, 0.8);
+  background-clip: padding-box;
+  font-size: smaller;
+  color: white;
+}
+
+.plus-length{
+  padding-left:45px;
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Nasa Font';
+    src: url('~@/assets/fonts/nasa-webfont.woff2') format('woff2'),
+         url('~@/assets/fonts/nasa-webfont.woff') format('woff');
+}
+
+.nasa {
+    font-family: 'Nasa Font'
+}

@@ -1,0 +1,244 @@
+.leaflet-container {
+  cursor: default;
+}
+
+.leaflet-bar a:first-child,
+.leaflet-bar a:hover:first-child,
+.leaflet-bar a:hover:last-child,
+.leaflet-bar a:last-child {
+  border-bottom-right-radius: unset !important;
+}
+
+.leaflet-touch .leaflet-bar a {
+  width: 31px !important;
+  height: 31px !important;
+  line-height: 30px;
+}
+
+.vessel-tooltip {
+  color: white;
+  background-color: rgba(49, 53, 65, 0.9) !important;
+  border: 1.1px solid black;
+  font-weight: 600;
+}
+
+.leaflet-tooltip-left.vessel-tooltip::before {
+  border-left-color: rgba(0, 0, 0, 0.6);
+}
+
+.leaflet-tooltip-right.vessel-tooltip::before {
+  border-right-color: rgba(0, 0, 0, 0.6);
+}
+
+.leaflet-tooltip-top.vessel-tooltip::before {
+  border-top-color: rgba(0, 0, 0, 0.6);
+}
+
+.leaflet-marker-icon.hovered-vessel:hover {
+  outline-color: #FF0000 !important;
+  outline: dashed;
+  outline-width: 1.5px !important;
+  outline-offset: +3px;
+}
+
+.leaflet-marker-icon.selected-vessel {
+  outline-color: #000000 !important;
+  outline: dashed;
+  outline-width: 1.5px !important;
+  outline-offset: +3px;
+}
+
+.leaflet-marker-icon.default-vessel:hover,
+.leaflet-marker-icon.icon-individuals:hover {
+  border: 1px solid red;
+  border-radius: 50%;
+}
+
+.leaflet-marker-icon.icon-companies:hover {
+  border: 1px solid red;
+  border-radius: 20%;
+}
+
+.leaflet-control-velocity {
+  display: block;
+  text-align: center;
+  line-height: 22px;
+  color: #ffffff !important;
+  border: 0.5px solid rgba(255, 255, 255, 0.27) !important;
+  border-radius: 2px !important;
+  background-color: rgba(30, 43, 81, 0.71) !important;
+  box-shadow: -2px 2px 2px 0 rgba(0, 0, 0, 0.1) !important;
+  box-sizing: border-box !important;
+  height: 44px !important;
+  width: 180px !important;
+}
+
+.velocity-overlay {
+  position: absolute !important;
+  z-index: 9 !important;
+}
+
+.leaflet-control-scale-line {
+  color: #ffffff;
+  border: 2px solid #777;
+  border-top: none;
+  line-height: 1.1;
+  padding: 2px 5px 1px;
+  font-size: 11px;
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
+  background: rgba(30, 43, 81, 0.71);
+}
+
+/*custom popup*/
+.address-popup .leaflet-popup-content-wrapper {
+  background: #2c3e50;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 0px;
+}
+
+.address-popup .leaflet-popup-content-wrapper a {
+  color: rgba(255, 255, 255, 0.1);
+}
+
+.address-popup .leaflet-popup-tip-container {
+  width: 30px;
+  height: 15px;
+}
+
+.address-popup .leaflet-popup-tip {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.leaflet-control-zoom-in, .leaflet-control-zoom-out {
+  width: 31px !important;
+  height: 31px !important;
+  clear: none !important;
+  font-size: 14px !important;
+  color: white;
+  opacity: 0.89 !important;
+  box-sizing: border-box !important;
+  border: 0.5px solid rgba(255, 255, 255, 0.27) !important;
+  background-color: rgba(30, 43, 81, 0.71) !important;
+  box-shadow: -2px 2px 2px 0 rgba(0, 0, 0, 0.1) !important
+}
+
+.leaflet-control-zoom-in:hover, .leaflet-control-zoom-out:hover {
+  background-color: rgba(30, 43, 81, 0.88) !important;
+}
+
+.leaflet-control-zoom-in {
+  border-radius: 3px 3px 0 0 !important
+}
+
+.leaflet-control-zoom-out {
+  border-radius: 0 0 3px 3px !important
+}
+
+.leaflet-control-layers {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.65);
+  border-radius: 4px;
+  background: none !important
+}
+
+.leaflet-control-layers-toggle {
+  box-sizing: border-box !important;
+  height: 31px !important;
+  width: 31px !important;
+  border: 0.5px solid rgba(255, 255, 255, 0.27) !important;
+  border-radius: 2px !important;
+  background-color: rgba(30, 43, 81, 0.71) !important;
+  box-shadow: -2px 2px 2px 0 rgba(0, 0, 0, 0.1) !important;
+  /*background-image: url(/img/leaflet/W_mt_map_icon.png) !important;*/
+  background-size: 60% !important
+}
+
+.leaflet-control-layers-toggle .leaflet-retina {
+  /*background-image: url(/img/leaflet/W_mt_map_icon-2x.png) !important;*/
+  background-size: 50% !important
+}
+
+.leaflet-control-layers-toggle .leaflet-touch {
+  width: 30px !important;
+  height: 30px !important
+}
+
+.leaflet-control-layers-expanded {
+  color: #ffffff !important;
+  font-size: 12px !important;
+  font-family: "Open Sans" !important;
+  font-weight: 600 !important;
+  line-height: 17px !important;
+  box-sizing: border-box !important;
+  border: 0.5px solid rgba(255, 255, 255, 0.27) !important;
+  border-radius: 2px !important;
+  background-color: rgba(49, 53, 65, 0.9) !important;
+  box-shadow: -2px 2px 2px 0 rgba(0, 0, 0, 0.1) !important
+}
+
+.leaflet-control-layers-base {
+  padding: 5px 15px !important
+}
+
+.leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {
+  border: none !important
+}
+
+.leaflet-bar-part {
+  width: 31px !important;
+  height: 31px !important;
+  clear: none !important;
+  color: white !important;
+  font-size: 14px !important;
+  opacity: 0.89 !important;
+  box-sizing: border-box !important;
+  border: 0.5px solid rgba(255, 255, 255, 0.27) !important;
+  background-color: rgba(30, 43, 81, 0.71) !important;
+  box-shadow: -2px 2px 2px 0 rgba(0, 0, 0, 0.1) !important
+}
+
+.leaflet-control-layers-toggle,
+.leaflet-control-fullscreen-button {
+  border-radius: 3px !important;
+  color: white !important
+}
+
+.leaflet-control-fullscreen a {
+  background: rgba(30, 43, 81, 0.71) url('../../../assets/fullscreen.png') no-repeat 0 0;
+  background-size: 27px 56px;
+  height: 31px;
+  width: 31px;
+  border: 0.5px solid rgba(255, 255, 255, 0.27) !important;
+}
+
+.leaflet-touch .leaflet-control-fullscreen a {
+  background-position: 2px 2px;
+  border: 0.5px solid rgba(255, 255, 255, 0.27) !important;
+}
+
+.leaflet-fullscreen-on .leaflet-control-fullscreen a {
+  background-position: -4 -27px;
+}
+
+.leaflet-touch.leaflet-fullscreen-on .leaflet-control-fullscreen a {
+  background-position: 2px -26px;
+}
+
+.leaflet-container.leaflet-fullscreen-on {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.leaflet-pseudo-fullscreen {
+  position: fixed !important;
+  width: 100% !important;
+  height: 100% !important;
+  top: 0 !important;
+  left: 0 !important;
+  z-index: 99999;
+}
